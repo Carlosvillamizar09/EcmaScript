@@ -5,21 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECMAScript</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="encabezado">
         <h1>¿Qué es ECMAScript?</h1>
+        <p> Creado por Carlos Mario Villamizar Medina</p>
+        <a href="#intro">¿Que és?</a>
+        <a href="#carac">¿Características?</a>
+        <a href="#ver">Versiones</a>
+        <a href="#como">¿Como se utiliza?</a>
     </header>
     <nav>
 
     </nav>
     <main>
-        <section class="introduccion">
+        <section id="intro" class="introduccion">
             <h2>¿Qué es ECMAScript?</h2>
+            <img src="imagen1.png" width="50%">
             <p>Determina como emplear JavaScript y es el núcleo de este lenguaje de programación, reconocido para el desarrollo web, asi como otros lenguajes. Las siglas de este lenguaje significan <i>Computer Manufactures Association Scripts.</i></p>
             <p>ECMAScript fue creado por Brendan Eich, mismo creador de JS; se utilizo por primera vez en el Navigator 2.0 browser. Ahora mismo se utiliza en muchos navegadores de World Wide Web, que ayuda al scripting del lado del cliente.</p>
         </section>
-        <section class="caracteristicas">
+        <section id="carac" class="caracteristicas">
             <h2>Características</h2>
             <p>ECMA Script 6 o es6 cuenta con diferentes características que lo hacen muy viable para integrarlo en tus programas de código. A continuación, te vamos a listar algunos de ellos:</p>
             <ul>
@@ -37,30 +49,104 @@
                 <li>Generadores.</li>
                 <li>Métodos Built-in.</li>
             </ul>
-        </section class="versiones">
+        </section>
+        <section id="ver" class="versiones">
             <h2>Versiones ECMAScript</h2>
             <p>Como ocurre con todos los avances tecnológicos, Javascript ha pasado por diferentes versiones, cada una con novedades que mejoraban la anterior. ECMA es quien se encargó de estandarizar Javascript y ya va por la versión ES15.</p>
             <p>Las versiones van desde ES1 hasta ES15, y esta es la lista de los años en los que se lanzaron estas versiones:</p>
-            <ul>
-                <li>ES1 (Junio de 1997)</li>
-                <li>ES2 (Diciembre 1998)</li>
-                <li>ES3 (Diciembre de 1999)</li>
-                <li>ES4 (Abandonado, Junio de 2003)</li>
-                <li>ES5 (Diciembre de 2009)</li>
-                <li>ES5.1 (Junio de 2011)</li>
-                <li>ES6 (Junio de 2015)</li>
-                <li>ES7 (Junio de 2016)</li>
-                <li>ES8 (Junio de 2017)</li>
-                <li>ES9 Junio de (2018)</li>
-                <li>ES10 Junio de(2019)</li>
-                <li>ES11 (Junio de 2020)</li>
-                <li>ES12 (Junio de 2021)</li>
-                <li>ES13 (Junio de 2022)</li>
-                <li>ES14 (Junio de2023)</li>
-                <li>ES15 (Junio de 2024)</li>
-            </ul>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Versión</th>
+                        <th>Fecha de lanzamiento</th>
+                        <th>Detalles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ES1</td>
+                        <td>Junio de 1997</td>
+                        <td>Primera versión estándar de JavaScript. Estableció las bases del lenguaje.</td>
+                    </tr>
+                    <tr>
+                        <td>ES2</td>
+                        <td>Diciembre de 1998</td>
+                        <td>Mejoras en la especificación y corrección de errores en la versión anterior.</td>
+                    </tr>
+                    <tr>
+                        <td>ES3</td>
+                        <td>Diciembre de 1999</td>
+                        <td>Introducción de características como expresiones regulares, nuevas palabras clave y mejoras en la compatibilidad de los navegadores.</td>
+                    </tr>
+                    <tr>
+                        <td>ES4</td>
+                        <td>Abandonado, Junio de 2003</td>
+                        <td>Planeaba introducir características avanzadas, pero fue abandonada debido a desacuerdos dentro del grupo de trabajo.</td>
+                    </tr>
+                    <tr>
+                        <td>ES5</td>
+                        <td>Diciembre de 2009</td>
+                        <td>Introducción de características como el modo estricto (`'use strict'`), getters y setters, y mejoras en los métodos de objetos y arrays.</td>
+                    </tr>
+                    <tr>
+                        <td>ES5.1</td>
+                        <td>Junio de 2011</td>
+                        <td>Revisión menor para solucionar algunos problemas de la especificación ES5.</td>
+                    </tr>
+                    <tr>
+                        <td>ES6 (ES2015)</td>
+                        <td>Junio de 2015</td>
+                        <td>Gran actualización, conocida como ECMAScript 2015 o ES6, que introdujo clases, módulos, promesas, let y const, entre otras novedades.</td>
+                    </tr>
+                    <tr>
+                        <td>ES7 (ES2016)</td>
+                        <td>Junio de 2016</td>
+                        <td>Introducción de características como el operador de exponentes (`**`) y `Array.prototype.includes`.</td>
+                    </tr>
+                    <tr>
+                        <td>ES8 (ES2017)</td>
+                        <td>Junio de 2017</td>
+                        <td>Introducción de `async`/`await`, mejoras en los objetos y el `Object.entries()`.</td>
+                    </tr>
+                    <tr>
+                        <td>ES9 (ES2018)</td>
+                        <td>Junio de 2018</td>
+                        <td>Mejoras como la iteración asincrónica con `for-await-of` y nuevas características de expresiones regulares.</td>
+                    </tr>
+                    <tr>
+                        <td>ES10 (ES2019)</td>
+                        <td>Junio de 2019</td>
+                        <td>Introducción de nuevas características como `Array.prototype.flat()` y `Object.fromEntries()`.</td>
+                    </tr>
+                    <tr>
+                        <td>ES11 (ES2020)</td>
+                        <td>Junio de 2020</td>
+                        <td>Incorporación de nuevas características como los encadenamientos opcionales (`?.`) y el operador `nullish coalescing` (`??`).</td>
+                    </tr>
+                    <tr>
+                        <td>ES12 (ES2021)</td>
+                        <td>Junio de 2021</td>
+                        <td>Mejoras como `String.prototype.replaceAll()` y el operador lógico de asignación (`&&=` y `||=`).</td>
+                    </tr>
+                    <tr>
+                        <td>ES13 (ES2022)</td>
+                        <td>Junio de 2022</td>
+                        <td>Introducción de nuevas características como las metaprogramación con `Object.hasOwn()` y mejoras en el manejo de errores.</td>
+                    </tr>
+                    <tr>
+                        <td>ES14 (ES2023)</td>
+                        <td>Junio de 2023</td>
+                        <td>Actualización con nuevas características y mejoras continuas, que podrían incluir mejoras en el rendimiento y nuevas APIs.</td>
+                    </tr>
+                    <tr>
+                        <td>ES15 (ES2024)</td>
+                        <td>Junio de 2024</td>
+                        <td>Futura versión, que probablemente incluirá nuevas características y mejoras en el lenguaje.</td>
+                    </tr>
+                </tbody>
+            </table>
         </section> 
-        <section class="utilidad">
+        <section id="como" class="utilidad">
             <h2>¿Como se utiliza ECMAScript</h2>
             <p>ECMAScript se utiliza comúnmente para scripts del lado del cliente en la World Wide Web , y cada vez se utiliza más para aplicaciones y servicios del lado del servidor que utilizan entornos de tiempo de ejecución como Node.</p>
         </section>
