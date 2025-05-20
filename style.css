@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+    :root{
+        font-size: 60%;
+    }
+    .encabezado{
+        max-height: fit-content;
+        text-align: center;
+        height: auto;
+        justify-content: center;
+    }
+}
+
+
+body {
+    font-family:'Questrial', sans-serif;
+    h2 {
+        margin-bottom: 35px;
+    }
+    font-size: 1.5rem;
+}
+
+.introduccion {
+    h2 {
+        color: orangered;
+        font-weight:bold;
+        
+    }
+}
+
+
+.encabezado {
+    font-family: 'Cal Sans', sans-serif;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.1rem;
+    background-color: rgb(7, 7, 45);
+    color: white;
+    p{
+        padding: 5px;
+        font-size: small;
+        color: orangered;
+    }
+    a {
+        margin-bottom: 10px;
+        font-size:medium;
+        text-decoration: none;
+    }
+    
+}
+
+.introduccion {
+    background-color: rgb(154, 183, 255); 
+    color: white;
+    border-radius: 10px;
+}
+
+.caracteristicas {
+    background-color: rgb(154, 183, 255); 
+    color: white;
+    border-radius: 10px;
+}
+
+.versiones {
+    background-color: rgb(154, 183, 255); 
+    color: white;
+    border-radius: 10px;
+}
+
+.utilidad {
+    background-color: rgb(154, 183, 255); 
+    color: white;
+    border-radius: 10px;
+}
+
+.diferencias {
+    background-color: rgb(154, 183, 255); 
+    color: white;
+    border-radius: 10px;
+}
